@@ -1,0 +1,60 @@
+body
+{
+	background: #EA95FD;
+	margin: 0;
+}
+nav
+{
+	background: rgb(0, 0, 0, 0.7);
+	float: left;
+	list-style: none;
+	overflow: hidden;
+	width: 100%;
+	z-index: 100;
+}
+
+nav ul li a
+{
+	display: block;
+	padding: 20px;
+	color: white;
+	text-decoration:none;
+}
+nav ul li:hover
+{
+	background: #CC00FA;
+}
+aside
+{
+	float: right;
+	height: 100px;
+	background: #9E41B2;
+}
+
+
+section h1
+{
+	text-align: center;
+	font-size: 30px;
+}
+section h2
+{
+	text-align: center;
+}
+tr th 
+{
+	background-color: violet;
+}
+input.botones
+{
+	background-color: #EAB9F1;
+	height: 50px;
+}
+tr.intercalado
+{
+	background-color: #C08CC7;
+}
+input, textarea
+{
+	width: 200px;
+}
